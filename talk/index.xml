@@ -12,5 +12,23 @@
 	<atom:link href="https://ajhconway.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>File Systems Fated For Senescence? Nonsense, Says Science!</title>
+      <link>https://ajhconway.github.io/talk/file-systems-fated-sdc/</link>
+      <pubDate>Sun, 24 Sep 2017 00:00:00 -0700</pubDate>
+      
+      <guid>https://ajhconway.github.io/talk/file-systems-fated-sdc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>File Systems Fated For Senescence? Nonsense, Says Science!</title>
+      <link>https://ajhconway.github.io/talk/file-systems-fated-fast/</link>
+      <pubDate>Tue, 28 Feb 2017 00:00:00 -0800</pubDate>
+      
+      <guid>https://ajhconway.github.io/talk/file-systems-fated-fast/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
