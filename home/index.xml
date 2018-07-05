@@ -18,7 +18,7 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>https://ajhconway.github.io/home/about/</guid>
-      <description>Biography Alex Conway is a PhD student in computer science at Rutgers University, where he is advised by Martin Farach-Colton. His research interests are in the theory, application and implementation of external memory data structures and algorithms. He has worked externsively with write-optimized data structures such as $B^\varepsilon$-trees, COLAs, LSMs and BOA/BOT hash tables, from both theortical and systems perspectives.
+      <description>Biography Alex Conway is a PhD student in computer science at Rutgers University, where he is advised by Martin Farach-Colton. His research interests are in the theory, application and implementation of external memory data structures and algorithms. He has worked externsively with write-optimized data structures such as $B^\varepsilon$-trees, COLAs, LSMs and BOA/BOT hash tables, from both theoretical and systems perspectives.
 He is a member of the BetrFS team, which built and maintains the BetrFS prototype file system.</description>
     </item>
     
