@@ -7,8 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0200</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Optimal Ball Recycling</title>
+      <link>https://ajhconway.github.io/publication/optimal-ball-recycling/</link>
+      <pubDate>Fri, 06 Jul 2018 05:41:47 +0200</pubDate>
+      
+      <guid>https://ajhconway.github.io/publication/optimal-ball-recycling/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Optimal Hashing in External Memory</title>
@@ -31,7 +40,7 @@
     <item>
       <title>The Full Path to Full-Path Indexing</title>
       <link>https://ajhconway.github.io/publication/the-full-path-to-full-path-indexing/</link>
-      <pubDate>Mon, 12 Feb 2018 00:00:00 -0800</pubDate>
+      <pubDate>Mon, 12 Feb 2018 00:00:00 +0100</pubDate>
       
       <guid>https://ajhconway.github.io/publication/the-full-path-to-full-path-indexing/</guid>
       <description></description>
@@ -40,7 +49,7 @@
     <item>
       <title>File Systems Fated For Senescence? Nonsense, Says Science!</title>
       <link>https://ajhconway.github.io/talk/file-systems-fated-sdc/</link>
-      <pubDate>Sun, 24 Sep 2017 00:00:00 -0700</pubDate>
+      <pubDate>Sun, 24 Sep 2017 00:00:00 +0200</pubDate>
       
       <guid>https://ajhconway.github.io/talk/file-systems-fated-sdc/</guid>
       <description></description>
@@ -49,7 +58,7 @@
     <item>
       <title>How to Fragment Your File System</title>
       <link>https://ajhconway.github.io/publication/how-to-fragment-your-file-system/</link>
-      <pubDate>Tue, 04 Jul 2017 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 04 Jul 2017 00:00:00 +0200</pubDate>
       
       <guid>https://ajhconway.github.io/publication/how-to-fragment-your-file-system/</guid>
       <description></description>
@@ -58,7 +67,7 @@
     <item>
       <title>File Systems Fated For Senescence? Nonsense, Says Science!</title>
       <link>https://ajhconway.github.io/talk/file-systems-fated-fast/</link>
-      <pubDate>Tue, 28 Feb 2017 00:00:00 -0800</pubDate>
+      <pubDate>Tue, 28 Feb 2017 00:00:00 +0100</pubDate>
       
       <guid>https://ajhconway.github.io/talk/file-systems-fated-fast/</guid>
       <description></description>
@@ -67,7 +76,7 @@
     <item>
       <title>File Systems Fated for Senescence? Nonsense, Says Science!</title>
       <link>https://ajhconway.github.io/publication/file-systems-fated-for-senescence-nonsense-says-science/</link>
-      <pubDate>Mon, 27 Feb 2017 00:00:00 -0800</pubDate>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0100</pubDate>
       
       <guid>https://ajhconway.github.io/publication/file-systems-fated-for-senescence-nonsense-says-science/</guid>
       <description></description>
@@ -76,7 +85,7 @@
     <item>
       <title>The I/O Complexity of Computing Prime Tables</title>
       <link>https://ajhconway.github.io/publication/the-io-complexity-of-computing-prime-tables/</link>
-      <pubDate>Mon, 11 Apr 2016 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 11 Apr 2016 00:00:00 +0200</pubDate>
       
       <guid>https://ajhconway.github.io/publication/the-io-complexity-of-computing-prime-tables/</guid>
       <description></description>
@@ -85,7 +94,7 @@
     <item>
       <title>BetrFS</title>
       <link>https://ajhconway.github.io/project/betrfs/</link>
-      <pubDate>Sun, 01 Feb 2015 00:00:00 -0800</pubDate>
+      <pubDate>Sun, 01 Feb 2015 00:00:00 +0100</pubDate>
       
       <guid>https://ajhconway.github.io/project/betrfs/</guid>
       <description></description>

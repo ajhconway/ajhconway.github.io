@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://ajhconway.github.io/home/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title></title>
       <link>https://ajhconway.github.io/home/about/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
       <guid>https://ajhconway.github.io/home/about/</guid>
       <description>Biography Alex Conway is a PhD student in computer science at Rutgers University, where he is advised by Martin Farach-Colton. His research interests are in the theory, application and implementation of external memory data structures and algorithms. He has worked externsively with write-optimized data structures such as $B^\varepsilon$-trees, COLAs, LSMs and BOA/BOT hash tables, from both theoretical and systems perspectives.
@@ -25,7 +25,7 @@ He is a member of the BetrFS team, which built and maintains the BetrFS prototyp
     <item>
       <title>Publications</title>
       <link>https://ajhconway.github.io/home/publications/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
       <guid>https://ajhconway.github.io/home/publications/</guid>
       <description></description>
@@ -34,7 +34,7 @@ He is a member of the BetrFS team, which built and maintains the BetrFS prototyp
     <item>
       <title>Recent &amp; Upcoming Talks</title>
       <link>https://ajhconway.github.io/home/talks/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
       <guid>https://ajhconway.github.io/home/talks/</guid>
       <description></description>
@@ -43,7 +43,7 @@ He is a member of the BetrFS team, which built and maintains the BetrFS prototyp
     <item>
       <title>Projects</title>
       <link>https://ajhconway.github.io/home/projects/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
       <guid>https://ajhconway.github.io/home/projects/</guid>
       <description></description>
@@ -52,7 +52,7 @@ He is a member of the BetrFS team, which built and maintains the BetrFS prototyp
     <item>
       <title>Contact</title>
       <link>https://ajhconway.github.io/home/contact/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
       <guid>https://ajhconway.github.io/home/contact/</guid>
       <description></description>
