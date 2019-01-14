@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Publications</title>
+      <link>https://ajhconway.github.io/fullpub/publications/</link>
+      <pubDate>Sun, 13 Jan 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://ajhconway.github.io/fullpub/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Optimal Ball Recycling</title>
       <link>https://ajhconway.github.io/publication/dblp-confsoda-bender-ccfjt-19/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 -0500</pubDate>
