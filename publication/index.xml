@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Alex Conway</title>
+    <link>https://ajhconway.github.io/publication/</link>
+    <description>Recent content in Publications on Alex Conway</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://ajhconway.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Optimal Ball Recycling</title>
+      <link>https://ajhconway.github.io/publication/dblp-confsoda-bender-ccfjt-19/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://ajhconway.github.io/publication/dblp-confsoda-bender-ccfjt-19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Directory Mutations in a Full-Path-Indexed File System</title>
+      <link>https://ajhconway.github.io/publication/dblp-journalstos-zhan-jpckfbyjj-18/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 -0500</pubDate>
+      
+      <guid>https://ajhconway.github.io/publication/dblp-journalstos-zhan-jpckfbyjj-18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimal Hashing in External Memory</title>
+      <link>https://ajhconway.github.io/publication/dblp-conficalp-conway-fs-18/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 -0500</pubDate>
+      
+      <guid>https://ajhconway.github.io/publication/dblp-conficalp-conway-fs-18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Full Path to Full-Path Indexing</title>
+      <link>https://ajhconway.github.io/publication/dblp-conffast-zhan-cjkbfjjpy-18/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 -0500</pubDate>
+      
+      <guid>https://ajhconway.github.io/publication/dblp-conffast-zhan-cjkbfjjpy-18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>File Systems Fated for Senescence? Nonsense, Says Science!</title>
+      <link>https://ajhconway.github.io/publication/dblp-conffast-conway-bjjzybjkp-17/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      
+      <guid>https://ajhconway.github.io/publication/dblp-conffast-conway-bjjzybjkp-17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How to Fragment Your File System</title>
+      <link>https://ajhconway.github.io/publication/dblp-journalsusenix-login-conway-bj-0-bjjkpy-17/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      
+      <guid>https://ajhconway.github.io/publication/dblp-journalsusenix-login-conway-bj-0-bjjkpy-17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The I/O Complexity of Computing Prime Tables</title>
+      <link>https://ajhconway.github.io/publication/dblp-conflatin-bender-ccfgjms-016/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 -0500</pubDate>
+      
+      <guid>https://ajhconway.github.io/publication/dblp-conflatin-bender-ccfgjms-016/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
