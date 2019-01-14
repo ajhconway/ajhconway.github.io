@@ -6,45 +6,54 @@
     <description>Recent content in 1 on Alex Conway</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 04 Jul 2018 20:19:48 -0700</lastBuildDate>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 -0500</lastBuildDate>
     
 	<atom:link href="https://ajhconway.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Optimal Hashing in External Memory</title>
-      <link>https://ajhconway.github.io/publication/optimal-hashing-in-external-memory/</link>
-      <pubDate>Wed, 04 Jul 2018 20:19:48 -0700</pubDate>
+      <title>Optimal Ball Recycling</title>
+      <link>https://ajhconway.github.io/publication/dblp-confsoda-bender-ccfjt-19/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 -0500</pubDate>
       
-      <guid>https://ajhconway.github.io/publication/optimal-hashing-in-external-memory/</guid>
+      <guid>https://ajhconway.github.io/publication/dblp-confsoda-bender-ccfjt-19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimal Hashing in External Memory</title>
+      <link>https://ajhconway.github.io/publication/dblp-conficalp-conway-fs-18/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 -0500</pubDate>
+      
+      <guid>https://ajhconway.github.io/publication/dblp-conficalp-conway-fs-18/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Full Path to Full-Path Indexing</title>
-      <link>https://ajhconway.github.io/publication/the-full-path-to-full-path-indexing/</link>
-      <pubDate>Mon, 12 Feb 2018 00:00:00 +0100</pubDate>
+      <link>https://ajhconway.github.io/publication/dblp-conffast-zhan-cjkbfjjpy-18/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 -0500</pubDate>
       
-      <guid>https://ajhconway.github.io/publication/the-full-path-to-full-path-indexing/</guid>
+      <guid>https://ajhconway.github.io/publication/dblp-conffast-zhan-cjkbfjjpy-18/</guid>
       <description></description>
     </item>
     
     <item>
       <title>File Systems Fated for Senescence? Nonsense, Says Science!</title>
-      <link>https://ajhconway.github.io/publication/file-systems-fated-for-senescence-nonsense-says-science/</link>
-      <pubDate>Mon, 27 Feb 2017 00:00:00 +0100</pubDate>
+      <link>https://ajhconway.github.io/publication/dblp-conffast-conway-bjjzybjkp-17/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
       
-      <guid>https://ajhconway.github.io/publication/file-systems-fated-for-senescence-nonsense-says-science/</guid>
+      <guid>https://ajhconway.github.io/publication/dblp-conffast-conway-bjjzybjkp-17/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The I/O Complexity of Computing Prime Tables</title>
-      <link>https://ajhconway.github.io/publication/the-io-complexity-of-computing-prime-tables/</link>
-      <pubDate>Mon, 11 Apr 2016 00:00:00 +0200</pubDate>
+      <link>https://ajhconway.github.io/publication/dblp-conflatin-bender-ccfgjms-016/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 -0500</pubDate>
       
-      <guid>https://ajhconway.github.io/publication/the-io-complexity-of-computing-prime-tables/</guid>
+      <guid>https://ajhconway.github.io/publication/dblp-conflatin-bender-ccfgjms-016/</guid>
       <description></description>
     </item>
     
