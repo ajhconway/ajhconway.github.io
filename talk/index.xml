@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks on Alex Conway</title>
-    <link>https://ajhconway.github.io/talk/</link>
+    <link>https://ajhconway.com/talk/</link>
     <description>Recent content in Recent &amp; Upcoming Talks on Alex Conway</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0500</lastBuildDate>
     
-	<atom:link href="https://ajhconway.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ajhconway.com/talk/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Optimal Hashing in External Memory</title>
-      <link>https://ajhconway.github.io/talk/optimal-hashing-in-external-memory/</link>
+      <link>https://ajhconway.com/talk/optimal-hashing-in-external-memory/</link>
       <pubDate>Wed, 04 Jul 2018 21:56:58 -0700</pubDate>
       
-      <guid>https://ajhconway.github.io/talk/optimal-hashing-in-external-memory/</guid>
+      <guid>https://ajhconway.com/talk/optimal-hashing-in-external-memory/</guid>
       <description></description>
     </item>
     
     <item>
       <title>File Systems Fated For Senescence? Nonsense, Says Science!</title>
-      <link>https://ajhconway.github.io/talk/file-systems-fated-sdc/</link>
+      <link>https://ajhconway.com/talk/file-systems-fated-sdc/</link>
       <pubDate>Sun, 24 Sep 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://ajhconway.github.io/talk/file-systems-fated-sdc/</guid>
+      <guid>https://ajhconway.com/talk/file-systems-fated-sdc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>File Systems Fated For Senescence? Nonsense, Says Science!</title>
-      <link>https://ajhconway.github.io/talk/file-systems-fated-fast/</link>
+      <link>https://ajhconway.com/talk/file-systems-fated-fast/</link>
       <pubDate>Tue, 28 Feb 2017 00:00:00 -0500</pubDate>
       
-      <guid>https://ajhconway.github.io/talk/file-systems-fated-fast/</guid>
+      <guid>https://ajhconway.com/talk/file-systems-fated-fast/</guid>
       <description></description>
     </item>
     

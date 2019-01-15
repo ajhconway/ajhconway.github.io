@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Alex Conway</title>
-    <link>https://ajhconway.github.io/project/</link>
+    <link>https://ajhconway.com/project/</link>
     <description>Recent content in Projects on Alex Conway</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
     <lastBuildDate>Sun, 01 Feb 2015 00:00:00 -0500</lastBuildDate>
     
-	<atom:link href="https://ajhconway.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ajhconway.com/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>BetrFS</title>
-      <link>https://ajhconway.github.io/project/betrfs/</link>
+      <link>https://ajhconway.com/project/betrfs/</link>
       <pubDate>Sun, 01 Feb 2015 00:00:00 -0500</pubDate>
       
-      <guid>https://ajhconway.github.io/project/betrfs/</guid>
+      <guid>https://ajhconway.com/project/betrfs/</guid>
       <description></description>
     </item>
     

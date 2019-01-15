@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Alex Conway on Alex Conway</title>
-    <link>https://ajhconway.github.io/</link>
+    <link>https://ajhconway.com/</link>
     <description>Recent content in Alex Conway on Alex Conway</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,109 +12,109 @@
     
     <item>
       <title>Publications</title>
-      <link>https://ajhconway.github.io/fullpub/publications/</link>
+      <link>https://ajhconway.com/fullpub/publications/</link>
       <pubDate>Sun, 13 Jan 2019 00:00:00 -0500</pubDate>
       
-      <guid>https://ajhconway.github.io/fullpub/publications/</guid>
+      <guid>https://ajhconway.com/fullpub/publications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Optimal Ball Recycling</title>
-      <link>https://ajhconway.github.io/publication/dblp-confsoda-bender-ccfjt-19/</link>
+      <link>https://ajhconway.com/publication/2019-soda-ball-recycling/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 -0500</pubDate>
       
-      <guid>https://ajhconway.github.io/publication/dblp-confsoda-bender-ccfjt-19/</guid>
+      <guid>https://ajhconway.com/publication/2019-soda-ball-recycling/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Optimal Hashing in External Memory</title>
-      <link>https://ajhconway.github.io/talk/optimal-hashing-in-external-memory/</link>
+      <link>https://ajhconway.com/talk/optimal-hashing-in-external-memory/</link>
       <pubDate>Wed, 04 Jul 2018 21:56:58 -0700</pubDate>
       
-      <guid>https://ajhconway.github.io/talk/optimal-hashing-in-external-memory/</guid>
+      <guid>https://ajhconway.com/talk/optimal-hashing-in-external-memory/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Efficient Directory Mutations in a Full-Path-Indexed File System</title>
-      <link>https://ajhconway.github.io/publication/dblp-journalstos-zhan-jpckfbyjj-18/</link>
+      <link>https://ajhconway.com/publication/2018-tos-rename/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 -0500</pubDate>
       
-      <guid>https://ajhconway.github.io/publication/dblp-journalstos-zhan-jpckfbyjj-18/</guid>
+      <guid>https://ajhconway.com/publication/2018-tos-rename/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Optimal Hashing in External Memory</title>
-      <link>https://ajhconway.github.io/publication/dblp-conficalp-conway-fs-18/</link>
+      <link>https://ajhconway.com/publication/2018-icalp-hashing/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 -0500</pubDate>
       
-      <guid>https://ajhconway.github.io/publication/dblp-conficalp-conway-fs-18/</guid>
+      <guid>https://ajhconway.com/publication/2018-icalp-hashing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Full Path to Full-Path Indexing</title>
-      <link>https://ajhconway.github.io/publication/dblp-conffast-zhan-cjkbfjjpy-18/</link>
+      <link>https://ajhconway.com/publication/2018-fast-rename/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 -0500</pubDate>
       
-      <guid>https://ajhconway.github.io/publication/dblp-conffast-zhan-cjkbfjjpy-18/</guid>
+      <guid>https://ajhconway.com/publication/2018-fast-rename/</guid>
       <description></description>
     </item>
     
     <item>
       <title>File Systems Fated For Senescence? Nonsense, Says Science!</title>
-      <link>https://ajhconway.github.io/talk/file-systems-fated-sdc/</link>
+      <link>https://ajhconway.com/talk/file-systems-fated-sdc/</link>
       <pubDate>Sun, 24 Sep 2017 00:00:00 -0400</pubDate>
       
-      <guid>https://ajhconway.github.io/talk/file-systems-fated-sdc/</guid>
+      <guid>https://ajhconway.com/talk/file-systems-fated-sdc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>File Systems Fated For Senescence? Nonsense, Says Science!</title>
-      <link>https://ajhconway.github.io/talk/file-systems-fated-fast/</link>
+      <link>https://ajhconway.com/talk/file-systems-fated-fast/</link>
       <pubDate>Tue, 28 Feb 2017 00:00:00 -0500</pubDate>
       
-      <guid>https://ajhconway.github.io/talk/file-systems-fated-fast/</guid>
+      <guid>https://ajhconway.com/talk/file-systems-fated-fast/</guid>
       <description></description>
     </item>
     
     <item>
       <title>File Systems Fated for Senescence? Nonsense, Says Science!</title>
-      <link>https://ajhconway.github.io/publication/dblp-conffast-conway-bjjzybjkp-17/</link>
+      <link>https://ajhconway.com/publication/2017-fast-file-system-aging/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
       
-      <guid>https://ajhconway.github.io/publication/dblp-conffast-conway-bjjzybjkp-17/</guid>
+      <guid>https://ajhconway.com/publication/2017-fast-file-system-aging/</guid>
       <description></description>
     </item>
     
     <item>
       <title>How to Fragment Your File System</title>
-      <link>https://ajhconway.github.io/publication/dblp-journalsusenix-login-conway-bj-0-bjjkpy-17/</link>
+      <link>https://ajhconway.com/publication/2017-login-file-system-aging/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
       
-      <guid>https://ajhconway.github.io/publication/dblp-journalsusenix-login-conway-bj-0-bjjkpy-17/</guid>
+      <guid>https://ajhconway.com/publication/2017-login-file-system-aging/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The I/O Complexity of Computing Prime Tables</title>
-      <link>https://ajhconway.github.io/publication/dblp-conflatin-bender-ccfgjms-016/</link>
+      <link>https://ajhconway.com/publication/2016-latin-prime-tables/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 -0500</pubDate>
       
-      <guid>https://ajhconway.github.io/publication/dblp-conflatin-bender-ccfgjms-016/</guid>
+      <guid>https://ajhconway.com/publication/2016-latin-prime-tables/</guid>
       <description></description>
     </item>
     
     <item>
       <title>BetrFS</title>
-      <link>https://ajhconway.github.io/project/betrfs/</link>
+      <link>https://ajhconway.com/project/betrfs/</link>
       <pubDate>Sun, 01 Feb 2015 00:00:00 -0500</pubDate>
       
-      <guid>https://ajhconway.github.io/project/betrfs/</guid>
+      <guid>https://ajhconway.com/project/betrfs/</guid>
       <description></description>
     </item>
     

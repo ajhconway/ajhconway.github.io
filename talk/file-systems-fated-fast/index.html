@@ -18,7 +18,7 @@
   <meta name="description" content="File systems must allocate space for files without knowing what will be added or removed in the future.  Over the life of a file system, this may cause suboptimal file placement decisions which eventually lead to slower performance, or aging. Traditional file systems employ heuristics, such as collocating related files and data blocks, to avoid aging, and many file system implementors treat aging as a solved problem. &lt;br/&gt;However, this paper describes realistic as well as synthetic workloads that can cause these heuristics to fail, inducing large performance declines due to aging. For example, on ext4 and ZFS, a few hundred git pull operations can reduce read performance by a factor of 2; performing a thousand pulls can reduce performance by up to a factor of 30. We further present microbenchmarks demonstrating that common placement strategies are extremely sensitive to file-creation order; varying the creation order of a few thousand small files in a real-world directory structure can slow down reads by 15 − 175×, depending on the file system. &lt;br/&gt;We argue that these slowdowns are caused by poor layout.  We demonstrate a correlation between read performance of a directory scan and the locality within a file system’s access patterns, using a dynamic layout score. &lt;br/&gt;In short, many file systems are exquisitely prone to read aging for a variety of write workloads. We show, however, that aging is not inevitable. BetrFS, a file system based on write-optimized dictionaries, exhibits almost no aging in our experiments. BetrFS typically outperforms the other file systems in our benchmarks; aged BetrFS even outperforms the unaged versions of these file systems, excepting Btrfs. We present a framework for understanding and predicting aging, and identify the key features of BetrFS that avoid aging.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://ajhconway.github.io/talk/file-systems-fated-fast/">
+  <link rel="alternate" hreflang="en-us" href="https://ajhconway.com/talk/file-systems-fated-fast/">
 
   
 
@@ -84,15 +84,15 @@
   
 
   
-  <link rel="alternate" href="https://ajhconway.github.io/index.xml" type="application/rss+xml" title="Alex Conway">
-  <link rel="feed" href="https://ajhconway.github.io/index.xml" type="application/rss+xml" title="Alex Conway">
+  <link rel="alternate" href="https://ajhconway.com/index.xml" type="application/rss+xml" title="Alex Conway">
+  <link rel="feed" href="https://ajhconway.com/index.xml" type="application/rss+xml" title="Alex Conway">
   
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://ajhconway.github.io/talk/file-systems-fated-fast/">
+  <link rel="canonical" href="https://ajhconway.com/talk/file-systems-fated-fast/">
 
   
   
@@ -104,9 +104,9 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Alex Conway">
-  <meta property="og:url" content="https://ajhconway.github.io/talk/file-systems-fated-fast/">
+  <meta property="og:url" content="https://ajhconway.com/talk/file-systems-fated-fast/">
   <meta property="og:title" content="File Systems Fated For Senescence? Nonsense, Says Science! | Alex Conway">
-  <meta property="og:description" content="File systems must allocate space for files without knowing what will be added or removed in the future.  Over the life of a file system, this may cause suboptimal file placement decisions which eventually lead to slower performance, or aging. Traditional file systems employ heuristics, such as collocating related files and data blocks, to avoid aging, and many file system implementors treat aging as a solved problem. &lt;br/&gt;However, this paper describes realistic as well as synthetic workloads that can cause these heuristics to fail, inducing large performance declines due to aging. For example, on ext4 and ZFS, a few hundred git pull operations can reduce read performance by a factor of 2; performing a thousand pulls can reduce performance by up to a factor of 30. We further present microbenchmarks demonstrating that common placement strategies are extremely sensitive to file-creation order; varying the creation order of a few thousand small files in a real-world directory structure can slow down reads by 15 − 175×, depending on the file system. &lt;br/&gt;We argue that these slowdowns are caused by poor layout.  We demonstrate a correlation between read performance of a directory scan and the locality within a file system’s access patterns, using a dynamic layout score. &lt;br/&gt;In short, many file systems are exquisitely prone to read aging for a variety of write workloads. We show, however, that aging is not inevitable. BetrFS, a file system based on write-optimized dictionaries, exhibits almost no aging in our experiments. BetrFS typically outperforms the other file systems in our benchmarks; aged BetrFS even outperforms the unaged versions of these file systems, excepting Btrfs. We present a framework for understanding and predicting aging, and identify the key features of BetrFS that avoid aging."><meta property="og:image" content="https://ajhconway.github.io/img/dreamyme.jpg">
+  <meta property="og:description" content="File systems must allocate space for files without knowing what will be added or removed in the future.  Over the life of a file system, this may cause suboptimal file placement decisions which eventually lead to slower performance, or aging. Traditional file systems employ heuristics, such as collocating related files and data blocks, to avoid aging, and many file system implementors treat aging as a solved problem. &lt;br/&gt;However, this paper describes realistic as well as synthetic workloads that can cause these heuristics to fail, inducing large performance declines due to aging. For example, on ext4 and ZFS, a few hundred git pull operations can reduce read performance by a factor of 2; performing a thousand pulls can reduce performance by up to a factor of 30. We further present microbenchmarks demonstrating that common placement strategies are extremely sensitive to file-creation order; varying the creation order of a few thousand small files in a real-world directory structure can slow down reads by 15 − 175×, depending on the file system. &lt;br/&gt;We argue that these slowdowns are caused by poor layout.  We demonstrate a correlation between read performance of a directory scan and the locality within a file system’s access patterns, using a dynamic layout score. &lt;br/&gt;In short, many file systems are exquisitely prone to read aging for a variety of write workloads. We show, however, that aging is not inevitable. BetrFS, a file system based on write-optimized dictionaries, exhibits almost no aging in our experiments. BetrFS typically outperforms the other file systems in our benchmarks; aged BetrFS even outperforms the unaged versions of these file systems, excepting Btrfs. We present a framework for understanding and predicting aging, and identify the key features of BetrFS that avoid aging."><meta property="og:image" content="https://ajhconway.com/img/dreamyme.jpg">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2017-02-28T00:00:00-05:00">
@@ -326,35 +326,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=File%20Systems%20Fated%20For%20Senescence%3f%20Nonsense%2c%20Says%20Science%21&amp;url=https%3a%2f%2fajhconway.github.io%2ftalk%2ffile-systems-fated-fast%2f"
+         href="https://twitter.com/intent/tweet?text=File%20Systems%20Fated%20For%20Senescence%3f%20Nonsense%2c%20Says%20Science%21&amp;url=https%3a%2f%2fajhconway.com%2ftalk%2ffile-systems-fated-fast%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fajhconway.github.io%2ftalk%2ffile-systems-fated-fast%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fajhconway.com%2ftalk%2ffile-systems-fated-fast%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-facebook-f"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fajhconway.github.io%2ftalk%2ffile-systems-fated-fast%2f&amp;title=File%20Systems%20Fated%20For%20Senescence%3f%20Nonsense%2c%20Says%20Science%21"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fajhconway.com%2ftalk%2ffile-systems-fated-fast%2f&amp;title=File%20Systems%20Fated%20For%20Senescence%3f%20Nonsense%2c%20Says%20Science%21"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fajhconway.github.io%2ftalk%2ffile-systems-fated-fast%2f&amp;title=File%20Systems%20Fated%20For%20Senescence%3f%20Nonsense%2c%20Says%20Science%21"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fajhconway.com%2ftalk%2ffile-systems-fated-fast%2f&amp;title=File%20Systems%20Fated%20For%20Senescence%3f%20Nonsense%2c%20Says%20Science%21"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=File%20Systems%20Fated%20For%20Senescence%3f%20Nonsense%2c%20Says%20Science%21&amp;body=https%3a%2f%2fajhconway.github.io%2ftalk%2ffile-systems-fated-fast%2f">
+         href="mailto:?subject=File%20Systems%20Fated%20For%20Senescence%3f%20Nonsense%2c%20Says%20Science%21&amp;body=https%3a%2f%2fajhconway.com%2ftalk%2ffile-systems-fated-fast%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>

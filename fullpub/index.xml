@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Alex Conway: Publications on Alex Conway</title>
-    <link>https://ajhconway.github.io/fullpub/</link>
+    <link>https://ajhconway.com/fullpub/</link>
     <description>Recent content in Alex Conway: Publications on Alex Conway</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
     <lastBuildDate>Sun, 13 Jan 2019 00:00:00 -0500</lastBuildDate>
     
-	<atom:link href="https://ajhconway.github.io/fullpub/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ajhconway.com/fullpub/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Publications</title>
-      <link>https://ajhconway.github.io/fullpub/publications/</link>
+      <link>https://ajhconway.com/fullpub/publications/</link>
       <pubDate>Sun, 13 Jan 2019 00:00:00 -0500</pubDate>
       
-      <guid>https://ajhconway.github.io/fullpub/publications/</guid>
+      <guid>https://ajhconway.com/fullpub/publications/</guid>
       <description></description>
     </item>
     

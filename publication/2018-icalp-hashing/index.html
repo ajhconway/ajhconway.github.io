@@ -15,10 +15,10 @@
   
     
   
-  <meta name="description" content="File systems must allocate space for files without knowing what will be added or removed in the future.  Over the life of a file system, this may cause suboptimal file placement decisions which eventually lead to slower performance, or aging. Traditional file systems employ heuristics, such as collocating related files and data blocks, to avoid aging, and many file system implementors treat aging as a solved problem. &lt;br/&gt;However, this paper describes realistic as well as synthetic workloads that can cause these heuristics to fail, inducing large performance declines due to aging. For example, on ext4 and ZFS, a few hundred git pull operations can reduce read performance by a factor of 2; performing a thousand pulls can reduce performance by up to a factor of 30. We further present microbenchmarks demonstrating that common placement strategies are extremely sensitive to file-creation order; varying the creation order of a few thousand small files in a real-world directory structure can slow down reads by 15 − 175×, depending on the file system. &lt;br/&gt;We argue that these slowdowns are caused by poor layout.  We demonstrate a correlation between read performance of a directory scan and the locality within a file system’s access patterns, using a dynamic layout score. &lt;br/&gt;In short, many file systems are exquisitely prone to read aging for a variety of write workloads. We show, however, that aging is not inevitable. BetrFS, a file system based on write-optimized dictionaries, exhibits almost no aging in our experiments. BetrFS typically outperforms the other file systems in our benchmarks; aged BetrFS even outperforms the unaged versions of these file systems, excepting Btrfs. We present a framework for understanding and predicting aging, and identify the key features of BetrFS that avoid aging.">
+  <meta name="description" content="">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://ajhconway.com/talk/file-systems-fated-sdc/">
+  <link rel="alternate" hreflang="en-us" href="https://ajhconway.com/publication/2018-icalp-hashing/">
 
   
 
@@ -92,7 +92,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://ajhconway.com/talk/file-systems-fated-sdc/">
+  <link rel="canonical" href="https://ajhconway.com/publication/2018-icalp-hashing/">
 
   
   
@@ -104,21 +104,21 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Alex Conway">
-  <meta property="og:url" content="https://ajhconway.com/talk/file-systems-fated-sdc/">
-  <meta property="og:title" content="File Systems Fated For Senescence? Nonsense, Says Science! | Alex Conway">
-  <meta property="og:description" content="File systems must allocate space for files without knowing what will be added or removed in the future.  Over the life of a file system, this may cause suboptimal file placement decisions which eventually lead to slower performance, or aging. Traditional file systems employ heuristics, such as collocating related files and data blocks, to avoid aging, and many file system implementors treat aging as a solved problem. &lt;br/&gt;However, this paper describes realistic as well as synthetic workloads that can cause these heuristics to fail, inducing large performance declines due to aging. For example, on ext4 and ZFS, a few hundred git pull operations can reduce read performance by a factor of 2; performing a thousand pulls can reduce performance by up to a factor of 30. We further present microbenchmarks demonstrating that common placement strategies are extremely sensitive to file-creation order; varying the creation order of a few thousand small files in a real-world directory structure can slow down reads by 15 − 175×, depending on the file system. &lt;br/&gt;We argue that these slowdowns are caused by poor layout.  We demonstrate a correlation between read performance of a directory scan and the locality within a file system’s access patterns, using a dynamic layout score. &lt;br/&gt;In short, many file systems are exquisitely prone to read aging for a variety of write workloads. We show, however, that aging is not inevitable. BetrFS, a file system based on write-optimized dictionaries, exhibits almost no aging in our experiments. BetrFS typically outperforms the other file systems in our benchmarks; aged BetrFS even outperforms the unaged versions of these file systems, excepting Btrfs. We present a framework for understanding and predicting aging, and identify the key features of BetrFS that avoid aging."><meta property="og:image" content="https://ajhconway.com/img/dreamyme.jpg">
+  <meta property="og:url" content="https://ajhconway.com/publication/2018-icalp-hashing/">
+  <meta property="og:title" content="Optimal Hashing in External Memory | Alex Conway">
+  <meta property="og:description" content=""><meta property="og:image" content="https://ajhconway.com/img/dreamyme.jpg">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2017-09-24T00:00:00-04:00">
+  <meta property="article:published_time" content="2018-01-01T00:00:00-05:00">
   
-  <meta property="article:modified_time" content="2017-09-24T00:00:00-04:00">
-  
-
+  <meta property="article:modified_time" content="2018-01-01T00:00:00-05:00">
   
 
   
 
-  <title>File Systems Fated For Senescence? Nonsense, Says Science! | Alex Conway</title>
+  
+
+  <title>Optimal Hashing in External Memory | Alex Conway</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" class="dark">
@@ -265,7 +265,7 @@
   </div>
 </nav>
 
-<div class="pub" itemscope itemtype="http://schema.org/Event">
+<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
   
 
@@ -286,7 +286,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">File Systems Fated For Senescence? Nonsense, Says Science!</h1>
+  <h1 itemprop="name">Optimal Hashing in External Memory</h1>
 
   
 
@@ -297,16 +297,26 @@
 
   
   
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Alex Conway">
-  </span>
+  
+  <div>
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name"><strong>Alex Conway</strong></span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Martin Farach-Colton</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Philip Shilane</span>
+    </span>
+    
+  </div>
   
 
   <span class="article-date">
     
-    <meta content="2017-09-24 00:00:00 -0400 EDT" itemprop="datePublished">
-    <time datetime="2017-09-24 00:00:00 -0400 EDT" itemprop="dateModified">
-      Sep 24, 2017
+    <meta content="2018-01-01 00:00:00 -0500 EST" itemprop="datePublished">
+    <time datetime="2018-01-01 00:00:00 -0500 EST" itemprop="dateModified">
+      Jan 1, 2018
     </time>
   </span>
   <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
@@ -326,35 +336,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=File%20Systems%20Fated%20For%20Senescence%3f%20Nonsense%2c%20Says%20Science%21&amp;url=https%3a%2f%2fajhconway.com%2ftalk%2ffile-systems-fated-sdc%2f"
+         href="https://twitter.com/intent/tweet?text=Optimal%20Hashing%20in%20External%20Memory&amp;url=https%3a%2f%2fajhconway.com%2fpublication%2f2018-icalp-hashing%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fajhconway.com%2ftalk%2ffile-systems-fated-sdc%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fajhconway.com%2fpublication%2f2018-icalp-hashing%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-facebook-f"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fajhconway.com%2ftalk%2ffile-systems-fated-sdc%2f&amp;title=File%20Systems%20Fated%20For%20Senescence%3f%20Nonsense%2c%20Says%20Science%21"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fajhconway.com%2fpublication%2f2018-icalp-hashing%2f&amp;title=Optimal%20Hashing%20in%20External%20Memory"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fajhconway.com%2ftalk%2ffile-systems-fated-sdc%2f&amp;title=File%20Systems%20Fated%20For%20Senescence%3f%20Nonsense%2c%20Says%20Science%21"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fajhconway.com%2fpublication%2f2018-icalp-hashing%2f&amp;title=Optimal%20Hashing%20in%20External%20Memory"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=File%20Systems%20Fated%20For%20Senescence%3f%20Nonsense%2c%20Says%20Science%21&amp;body=https%3a%2f%2fajhconway.com%2ftalk%2ffile-systems-fated-sdc%2f">
+         href="mailto:?subject=Optimal%20Hashing%20in%20External%20Memory&amp;body=https%3a%2f%2fajhconway.com%2fpublication%2f2018-icalp-hashing%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -374,10 +384,14 @@
 
 
 
+  
 
 
 
 
+
+
+  
 
 
 
@@ -392,6 +406,26 @@
 
 
   
+    
+  
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://epubs.siam.org/doi/pdf/10.1137/1.9781611975482.155" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/publication/2018-icalp-hashing/dblp-conficalp-conway-fs-18.bib">
+  Cite
+</button>
+
+
+
+
+
+
 
 
 
@@ -401,19 +435,36 @@
 
 
   
-  <a class="btn btn-outline-primary my-1 mr-1" href="/project/betrfs/">
-    Project
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="http://arxiv.org/abs/1805.09423" target="_blank" rel="noopener">
+    
+    arXiv
   </a>
+
   
-
-
-
-
-
-
-
-
-
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="http://drops.dagstuhl.de/opus/volltexte/2018/9043/" target="_blank" rel="noopener">
+    
+    DROPS
+  </a>
 
 
 </div>
@@ -427,8 +478,39 @@
   <div class="article-container">
 
     
-      <h3>Abstract</h3>
-      <p class="pub-abstract" itemprop="text">File systems must allocate space for files without knowing what will be added or removed in the future.  Over the life of a file system, this may cause suboptimal file placement decisions which eventually lead to slower performance, or aging. Traditional file systems employ heuristics, such as collocating related files and data blocks, to avoid aging, and many file system implementors treat aging as a solved problem. <br/>However, this paper describes realistic as well as synthetic workloads that can cause these heuristics to fail, inducing large performance declines due to aging. For example, on ext4 and ZFS, a few hundred git pull operations can reduce read performance by a factor of 2; performing a thousand pulls can reduce performance by up to a factor of 30. We further present microbenchmarks demonstrating that common placement strategies are extremely sensitive to file-creation order; varying the creation order of a few thousand small files in a real-world directory structure can slow down reads by 15 − 175×, depending on the file system. <br/>We argue that these slowdowns are caused by poor layout.  We demonstrate a correlation between read performance of a directory scan and the locality within a file system’s access patterns, using a dynamic layout score. <br/>In short, many file systems are exquisitely prone to read aging for a variety of write workloads. We show, however, that aging is not inevitable. BetrFS, a file system based on write-optimized dictionaries, exhibits almost no aging in our experiments. BetrFS typically outperforms the other file systems in our benchmarks; aged BetrFS even outperforms the unaged versions of these file systems, excepting Btrfs. We present a framework for understanding and predicting aging, and identify the key features of BetrFS that avoid aging.</p>
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9"><em>45th International Colloquium on Automata, Languages, and Programming,ICALP 2018, July 9-13, 2018, Prague, Czech Republic</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
     
 
     <div class="row">
@@ -437,159 +519,28 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Date</div>
           <div class="col-12 col-md-9" itemprop="datePublished">
-            
-            Sep 24, 2017
-            <div class="talk-time">
-              
-                3:15 PM
-                
-              
-            </div>
+            January, 2018
           </div>
         </div>
       </div>
       <div class="col-md-1"></div>
     </div>
-    <div class="d-md-none space-below"></div>
-
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Event</div>
-          <div class="col-12 col-md-9">
-            <a href="https://www.snia.org/events/storage-developer" target="_blank" rel="noopener">
-            Storage Developers Conference
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
-
-    
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Location</div>
-          <div class="col-12 col-md-9">Santa Clara, CA</div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
-    
+    <div class="d-sm-none space-below"></div>
 
     <div class="space-below"></div>
 
-    <div class="article-style">
-      
-    </div>
+    <div class="article-style"></div>
+
+    
 
     
 
 
 
-
-    
-
-
-
-
-
-
-<div class="media author-card" itemscope itemtype="http://schema.org/Person">
   
-  <img class="portrait mr-3" src="/img/dreamyme.jpg" itemprop="image" alt="Avatar">
-  
-  <div class="media-body">
-    <h5 class="card-title" itemprop="name"><a href="/">Alex Conway</a></h5>
-    <h6 class="card-subtitle">PhD Candidate in Computer Science</h6>
-    
-    <ul class="network-icon" aria-hidden="true">
-      
-      
-      
-      
-        
-      
-      
-      
-      
-      
-      <li>
-        <a itemprop="sameAs" href="mailto:conway@ajhconway.com" >
-          <i class="fas fa-envelope"></i>
-        </a>
-      </li>
-      
-      
-      
-      
-      
-      
-      
-      
-        
-      
-      <li>
-        <a itemprop="sameAs" href="/files/alex_conway_cv.pdf" >
-          <i class="ai ai-cv"></i>
-        </a>
-      </li>
-      
-      
-      
-      
-      
-      
-      
-      
-        
-      
-      <li>
-        <a itemprop="sameAs" href="//scholar.google.com/citations?user=RAYmM1wAAAAJ" >
-          <i class="ai ai-google-scholar"></i>
-        </a>
-      </li>
-      
-      
-      
-      
-      
-      
-      
-      
-        
-      
-      <li>
-        <a itemprop="sameAs" href="//arxiv.org/a/conway_a_1.html" >
-          <i class="ai ai-arxiv"></i>
-        </a>
-      </li>
-      
-      
-      
-      
-        
-      
-      
-      
-      
-      
-        
-      
-      <li>
-        <a itemprop="sameAs" href="//github.com/ajhconway" >
-          <i class="fab fa-github"></i>
-        </a>
-      </li>
-      
-    </ul>
-  </div>
-</div>
+
+
+
 
 
 
