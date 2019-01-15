@@ -29,15 +29,6 @@
     </item>
     
     <item>
-      <title>Optimal Hashing in External Memory</title>
-      <link>https://ajhconway.com/talk/optimal-hashing-in-external-memory/</link>
-      <pubDate>Wed, 04 Jul 2018 21:56:58 -0700</pubDate>
-      
-      <guid>https://ajhconway.com/talk/optimal-hashing-in-external-memory/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Efficient Directory Mutations in a Full-Path-Indexed File System</title>
       <link>https://ajhconway.com/publication/2018-tos-rename/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 -0500</pubDate>
@@ -65,24 +56,6 @@
     </item>
     
     <item>
-      <title>File Systems Fated For Senescence? Nonsense, Says Science!</title>
-      <link>https://ajhconway.com/talk/file-systems-fated-sdc/</link>
-      <pubDate>Sun, 24 Sep 2017 00:00:00 -0400</pubDate>
-      
-      <guid>https://ajhconway.com/talk/file-systems-fated-sdc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>File Systems Fated For Senescence? Nonsense, Says Science!</title>
-      <link>https://ajhconway.com/talk/file-systems-fated-fast/</link>
-      <pubDate>Tue, 28 Feb 2017 00:00:00 -0500</pubDate>
-      
-      <guid>https://ajhconway.com/talk/file-systems-fated-fast/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>File Systems Fated for Senescence? Nonsense, Says Science!</title>
       <link>https://ajhconway.com/publication/2017-fast-file-system-aging/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
@@ -106,15 +79,6 @@
       <pubDate>Fri, 01 Jan 2016 00:00:00 -0500</pubDate>
       
       <guid>https://ajhconway.com/publication/2016-latin-prime-tables/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>BetrFS</title>
-      <link>https://ajhconway.com/project/betrfs/</link>
-      <pubDate>Sun, 01 Feb 2015 00:00:00 -0500</pubDate>
-      
-      <guid>https://ajhconway.com/project/betrfs/</guid>
       <description></description>
     </item>
     
