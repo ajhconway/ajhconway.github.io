@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://ajhconway.com/home/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title></title>
       <link>https://ajhconway.com/home/about/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>https://ajhconway.com/home/about/</guid>
       <description>Biography I am a PhD student in computer science at Rutgers University, where I am advised by Martin Farach-Colton.
@@ -26,7 +26,7 @@ I am a member of the BetrFS team, which built and maintains the BetrFS prototype
     <item>
       <title>Selected Publications</title>
       <link>https://ajhconway.com/home/publications_selected/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>https://ajhconway.com/home/publications_selected/</guid>
       <description></description>
@@ -35,7 +35,7 @@ I am a member of the BetrFS team, which built and maintains the BetrFS prototype
     <item>
       <title>Publications</title>
       <link>https://ajhconway.com/home/publications/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>https://ajhconway.com/home/publications/</guid>
       <description></description>
@@ -44,7 +44,7 @@ I am a member of the BetrFS team, which built and maintains the BetrFS prototype
     <item>
       <title>Contact</title>
       <link>https://ajhconway.com/home/contact/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>https://ajhconway.com/home/contact/</guid>
       <description></description>

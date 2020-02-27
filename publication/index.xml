@@ -7,15 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0800</lastBuildDate>
     
 	<atom:link href="https://ajhconway.com/publication/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>How to Copy Files</title>
+      <link>https://ajhconway.com/publication/zhan-2020-copy/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 -0800</pubDate>
+      
+      <guid>https://ajhconway.com/publication/zhan-2020-copy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Filesystem Aging: It&#39;s more Usage than Fullness</title>
       <link>https://ajhconway.com/publication/dblp-confhotstorage-conway-kjbjjpf-19/</link>
-      <pubDate>Mon, 08 Jul 2019 00:00:00 -0400</pubDate>
+      <pubDate>Mon, 08 Jul 2019 00:00:00 -0700</pubDate>
       
       <guid>https://ajhconway.com/publication/dblp-confhotstorage-conway-kjbjjpf-19/</guid>
       <description></description>
@@ -24,7 +33,7 @@
     <item>
       <title>Small Refinements to the DAM Can Have Big Consequences for Data-Structure Design</title>
       <link>https://ajhconway.com/publication/dblp-confspaa-bender-cfjjjkmmp-19/</link>
-      <pubDate>Sat, 22 Jun 2019 00:00:00 -0400</pubDate>
+      <pubDate>Sat, 22 Jun 2019 00:00:00 -0700</pubDate>
       
       <guid>https://ajhconway.com/publication/dblp-confspaa-bender-cfjjjkmmp-19/</guid>
       <description></description>
@@ -33,7 +42,7 @@
     <item>
       <title>Optimal Ball Recycling</title>
       <link>https://ajhconway.com/publication/2019-soda-ball-recycling/</link>
-      <pubDate>Sun, 06 Jan 2019 00:00:00 -0500</pubDate>
+      <pubDate>Sun, 06 Jan 2019 00:00:00 -0800</pubDate>
       
       <guid>https://ajhconway.com/publication/2019-soda-ball-recycling/</guid>
       <description></description>
@@ -42,7 +51,7 @@
     <item>
       <title>Efficient Directory Mutations in a Full-Path-Indexed File System</title>
       <link>https://ajhconway.com/publication/2018-tos-rename/</link>
-      <pubDate>Thu, 01 Nov 2018 00:00:00 -0400</pubDate>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 -0700</pubDate>
       
       <guid>https://ajhconway.com/publication/2018-tos-rename/</guid>
       <description></description>
@@ -51,7 +60,7 @@
     <item>
       <title>Optimal Hashing in External Memory</title>
       <link>https://ajhconway.com/publication/2018-icalp-hashing/</link>
-      <pubDate>Mon, 09 Jul 2018 00:00:00 -0400</pubDate>
+      <pubDate>Mon, 09 Jul 2018 00:00:00 -0700</pubDate>
       
       <guid>https://ajhconway.com/publication/2018-icalp-hashing/</guid>
       <description></description>
@@ -60,7 +69,7 @@
     <item>
       <title>The Full Path to Full-Path Indexing</title>
       <link>https://ajhconway.com/publication/2018-fast-rename/</link>
-      <pubDate>Mon, 12 Feb 2018 00:00:00 -0500</pubDate>
+      <pubDate>Mon, 12 Feb 2018 00:00:00 -0800</pubDate>
       
       <guid>https://ajhconway.com/publication/2018-fast-rename/</guid>
       <description></description>
@@ -69,7 +78,7 @@
     <item>
       <title>How to Fragment Your File System</title>
       <link>https://ajhconway.com/publication/2017-login-file-system-aging/</link>
-      <pubDate>Sat, 01 Jul 2017 00:00:00 -0400</pubDate>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 -0700</pubDate>
       
       <guid>https://ajhconway.com/publication/2017-login-file-system-aging/</guid>
       <description></description>
@@ -78,7 +87,7 @@
     <item>
       <title>File Systems Fated for Senescence? Nonsense, Says Science!</title>
       <link>https://ajhconway.com/publication/2017-fast-file-system-aging/</link>
-      <pubDate>Mon, 27 Feb 2017 00:00:00 -0500</pubDate>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 -0800</pubDate>
       
       <guid>https://ajhconway.com/publication/2017-fast-file-system-aging/</guid>
       <description></description>
@@ -87,7 +96,7 @@
     <item>
       <title>The I/O Complexity of Computing Prime Tables</title>
       <link>https://ajhconway.com/publication/2016-latin-prime-tables/</link>
-      <pubDate>Mon, 11 Apr 2016 00:00:00 -0400</pubDate>
+      <pubDate>Mon, 11 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>https://ajhconway.com/publication/2016-latin-prime-tables/</guid>
       <description></description>
